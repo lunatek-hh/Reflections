@@ -24,3 +24,41 @@ this leads to the text editor opening up to put in the commit message.
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Branches are useful when we want to try something which is boldly different from the original idea.
 this could allow the developer to try a new direction which is reasonably different from the original algorithm.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The way to create a branch, is to use the command:
+'git branch BRANCHNAME(Label)'
+We can checkout he branches by the command:
+'git branch'
+the branches will be listed in the following format:
+NEW_BRANCH
+Master* (the * represents the active branch)
+we can seperate commits in each branch, and then combine them later.
+for example lets say we started  a new Branch called COINS.
+so after making all the appropriate changes, we can merge them by using the command:
+'git branch master coins'
+it is important to note that we need to be in the master branch to do that.
+to check we can just type
+'git branch' - which should, show us the currently active branch by putting a * next to it.
+we can be in the master branch mode by typing:
+'git checkout master'
+the new branch which has already been merged to the master is no longer needed by its own lablel. so the older label can be deleted.
+the way to do this is by the command:
+'git branch -d LABELNAME'
+this wont delete the commits of the branch only its label
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git merging works by going into the branch you want to merge into and typing in the following command:
+'git merge labelINTO labelFROM'
+when the changes are different and do not really collide with each other, then the merging is automatic.
+however sometime there are conflicts. similiar code might be modified/created in both the branches.
+in such a possibility git would not know which to keep, or which to drop. so git decides to let the user make the decision.
+a temporary state is created:
+'labelINTO | merging'
+in this state one might see where the conflict is happening by the command:
+'git status'
+the user can then check the conflicting file and make the correct editions.
+on completion of this process, the user can now add the changed file for a final commitment by the command:
+'git add FILENAME'
+the merging can then be completed by the command:
+'git commit'
