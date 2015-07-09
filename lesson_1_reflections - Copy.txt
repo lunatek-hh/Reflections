@@ -1,0 +1,11 @@
+How did viewing a FC between two versions of a file help you see the bug that was introduced?
+This is rather interesting, because uptill now comparisions between my work was basically being done manually.
+But FC has really helped in making the process a little simpler.
+Though it is something which i need to get used to the presentation is not exactly regular english. 
+I am sure some comparision GUI based software would probably to a better and even faster job.
+
+How could having easy access to the entire history of a file make you more efficient programmer in the long term?
+There are multiple advantages, in my opinion, that helps when saving multiple versions of a file.
+For instance, it will be a good checkpoint system for different states of the project.
+Any mistake made in the newere versions can lead to easy rectification by accessing an older version, where the project was moving in the correct state.
+As a programmer vesion control comparisions can help in easily highlighting mistakes, made by me, thus allowing me to be more alert to the kind of mistakes i tend to make.
