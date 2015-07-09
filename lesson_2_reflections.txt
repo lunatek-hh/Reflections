@@ -10,4 +10,4 @@ It is different from the working directory in the sense that not all files of th
 It has the value of not needing to repeat files, thus saving space. on the other hand, it does seem a little tedious and time consuming to individually keep adding files.
 this might prove to be sligthly counter-productive if there are too many files which need commitment
 
-Just making some changes for a new commit
+Just making some changes for a new commitasdasdsa
