@@ -17,3 +17,10 @@ this allows you to wokr on the content of the repositor offline and in your own 
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Not sure
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Without using Git or Github, i would probably be uploading my code on a server, and expecting the people i am collaborating with to download it from there.
+this would mean upload, and then share the link with my colleagues.
+GiThub is definitely a lot easier since it allows a perma link for my partners to visit.
+But what i find most interesting is collaborating with myself, that is have a version control system where i can work on the basic and most fundamental bits on the master branch.
+at the same time have the ability to make some massive dynamic and really courageous changes in other branches for merging later if successful or trashing altogether if not.
