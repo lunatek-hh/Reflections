@@ -1,0 +1,47 @@
+How did viewing a FC between two versions of a file help you see the bug that was introduced?
+This is rather interesting, because uptill now comparisions between my work was basically being done manually.
+But FC has really helped in making the process a little simpler.
+Though it is something which i need to get used to the presentation is not exactly regular english. 
+I am sure some comparision GUI based software would probably to a better and even faster job.
+
+How could having easy access to the entire history of a file make you more efficient programmer in the long term?
+There are multiple advantages, in my opinion, that helps when saving multiple versions of a file.
+For instance, it will be a good checkpoint system for different states of the project.
+Any mistake made in the newere versions can lead to easy rectification by accessing an older version, where the project was moving in the correct state.
+As a programmer vesion control comparisions can help in easily highlighting mistakes, made by me, thus allowing me to be more alert to the kind of mistakes i tend to make.
+
+What do you think are the pros and cons of  manually choosing  when to create a commit, like you do in Git, vs  having versions automatically saved, like Google doc does?
+Among the pros, i would definately count the ability of the user to choose when to commit
+this allows the user more flexibility and commits can be made more logically
+this allows the used maximum control over version history so later comparisions are made in a logical manner which makes sense to the committer as opposed to unreliable, maybe semi finished operations which might not have meaning till completion
+Among the cons there is always the danger of the user forgetting to make Commits, thus losing valuable version control checkpoints.
+this might cause the eventual commits to be huge as multiple checkpoints might have been missed by the user.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+I think that Git allows us to edit multiple files within each commit, because while programming the files are interdependent.
+So it is highly likely that for a complete change in some operation, multiple files need to be edited.
+For example one might need to add a referance in one file only, while the rules of operation might be declared in another, yet the presentation style rules might be declared in a third file.
+A good example would be the interdependancy relationship which exiests between JS HTML and CSS files.
+On the other hand rich text editors, which are meant as GUI based Letter or document presentation editors  have all the functionality and styling present within the file itself, thus the need for interdependancy is far less and as such there is no need for multiple files to be saved in its commits.
+
+How can you use the commands git log and git diff to view the history of files?
+The Command git log allows me to see all the changes in the version history along with the relevant id number and the user inputted message detailing what changes have been made to the version.
+fo this command to work, one must merely use "git log" and keep scorlling down till the versions are either completer(reaches the end), or you find the versions you are looking for.
+To quit from the git log all you need to do is press 'q'.
+Once the versions you need have been identified, i can now use 'git diff' to compare between the versions i want.
+for readability's sake ui can be changed to change colors reflecting additions(in green) and deletions(in red).
+this is done by the command 'git config --global color.ui auto'.
+Post this the relevant id's need to be selected and pasted. after the command 'git diff'
+example:
+'git diff f19cb1b80fe27e938e4d72770ca0a42f25e99ecc b0678b161fcf74467ed3a63110557e3d6229cfa6'
+
+How might using version control make you more confident to make changes that could break something?
+Version control definately gives confidence, because you can keep saving commits at different phases of the project.
+while at same time one can refer back to earlier versions.
+this means, that even if some kind of error is made in a current version, or one of the earlier versions which has not been noticed while coding, it is possible to refer back to an even earlier state of the code where the error doesnt exist.
+comparing the file where the error FIRST appeared to the file where the error doesnt exist, allows us to compare easily and quickly understand where the bug is present, whether it is a result of faulty addition or deletion.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+My primary interest in using Git is to allow version control for my HTML, CSS & Javascript projects.
+I do download and make changes to previously avaiable JQuery code as well, so version control should help in incrementally customising these working codes for my benefit.
+In the future, hopfully Git should be a nice version control system for my work with Android projects as well as Processing projects.
