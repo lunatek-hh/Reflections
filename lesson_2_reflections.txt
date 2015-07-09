@@ -9,3 +9,5 @@ The staging area is like a temporary area where the files to be commited are com
 It is different from the working directory in the sense that not all files of the directory needs to be there, thus only those files where actual changes are happening can be committed to this.
 It has the value of not needing to repeat files, thus saving space. on the other hand, it does seem a little tedious and time consuming to individually keep adding files.
 this might prove to be sligthly counter-productive if there are too many files which need commitment
+
+Just making some changes for a new commit
