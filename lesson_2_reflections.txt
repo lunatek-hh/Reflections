@@ -10,4 +10,13 @@ It is different from the working directory in the sense that not all files of th
 It has the value of not needing to repeat files, thus saving space. on the other hand, it does seem a little tedious and time consuming to individually keep adding files.
 this might prove to be sligthly counter-productive if there are too many files which need commitment
 
-Just making some changes for a new commitasdasdsa
+How can you use the staging area to make sure you have one commit per logical change?
+by checking out the staging area, using the command:
+'git status'
+it is possible to check how many files have been edited.
+then follow it up with the command
+'git add FILENAME'
+that adds the file from the working directory to the staging area
+from the staging are the one can use the command,
+'git commit'
+this leads to the text editor opening up to put in the commit message.
