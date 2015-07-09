@@ -45,3 +45,5 @@ Now that you have your workspace set up, what do you want to try using Git for?
 My primary interest in using Git is to allow version control for my HTML, CSS & Javascript projects.
 I do download and make changes to previously avaiable JQuery code as well, so version control should help in incrementally customising these working codes for my benefit.
 In the future, hopfully Git should be a nice version control system for my work with Android projects as well as Processing projects.
+
+Further testing
