@@ -4,3 +4,13 @@ it is also a great way of keeping your files on a cloud server to be used by the
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Not sure
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+The difference between forks, clone and branches are quite simple yet subtle.
+- Forks are like clones of a repository which exists only on Github. 
+this means that the original repository exists on Github, and it is being cloned to another repository on Github.
+This allows a non contributor to work on the existing repository of someone else. 
+Also it link back to the original contributor, thush maintaining the correct history of contributions.
+- Clones are a full download of the repositorty which exists on Github to your local remote computer.
+this allows you to wokr on the content of the repositor offline and in your own machine instead of the GitHub page.
+- Branches are a seperate history of commits of your master branch, thus allowing you to test drastically different approaches, or features without the danger of affecting the original branch, unless manually specified to do so via 'git merge'
